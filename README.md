@@ -17,7 +17,7 @@ Analog input and PWM output tester:
 - Drives PWM brightness on D3 based on input
 - Serial confirms pin changes only
 
-### `nano_shelf_mode_idle`
+### `nano_shelf_mode`
 Safe idle sketch for storage:
 - Sets all digital pins to OUTPUT LOW
 - Sets analog pins to INPUT
