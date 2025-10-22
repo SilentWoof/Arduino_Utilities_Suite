@@ -4,20 +4,20 @@ A modular collection of utility scripts, diagnostics, and test harnesses for Ard
 
 ## 📦 Contents
 
-### [`nano_gpio_walk_test`](nano_gpio_walk_test/README.md)
+### [`nano_gpio_walk_test`](nano_gpio_walk_test/)
 Interactive GPIO tester for Arduino Nano:
 - Red button cycles through testable GPIOs (D2–D13, A0–A5)
 - Blue button toggles the current pin HIGH/LOW
 - Serial output confirms each action and pin label
 
-### [`nano_analog_input_pwm_test`](nano_analog_input_pwm_test/README.md)
+### [`nano_analog_input_pwm_test`](nano_analog_input_pwm_test/)
 Analog input and PWM output tester:
 - Cycles through A0–A5 using a button
 - Reads analog voltage from a potentiometer
 - Drives PWM brightness on D3 based on input
 - Serial confirms pin changes only
 
-### [`nano_shelf_mode`](nano_shelf_mode/README.md)
+### [`nano_shelf_mode`](nano_shelf_mode/)
 Safe idle sketch for storage:
 - Sets all digital pins to OUTPUT LOW
 - Sets analog pins to INPUT
